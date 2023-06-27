@@ -25,12 +25,16 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
+  const url = window.location.href
+  console.log();
+
   const router = createBrowserRouter([
     {
       path: "/",
       element:<Header data={landingPageData.Header} />,
       errorElement: <ErrorPage />,
     },
+
     {
       path: "/about",
       element:  <About data={landingPageData.About} />,
@@ -38,7 +42,7 @@ const App = () => {
     },
     {
       path: "/services",
-      element:  <Services data={landingPageData.Services} />,
+      element:  <Gallery data={landingPageData.Gallery} />,
       errorElement: <ErrorPage />,
     },
     {
@@ -49,8 +53,9 @@ const App = () => {
   ]);
 
   return (
-    <div>
-      <Navigation />
+    <div> 
+      {url.endsWith('/') ? <Navigation className={'navbar-default'} /> : <Navigation className={'navbar-default'} />}
+      
       <RouterProvider router={router} />
       {/* 
       <Header data={landingPageData.Header} />

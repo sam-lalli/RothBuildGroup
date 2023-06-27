@@ -1799,3 +1799,11 @@
 .fa-medium:before {
   content: "\f23a";
 }
+.fa-hammer:before {
+  content: "\f015";
+}
+.fa-cash:before {
+  content: "\f653";
+}
+
+

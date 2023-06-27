@@ -1,10 +1,11 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "I Love Hunter Roth",
+    "paragraph": "The love that I have for Hunter is unmatched by anything by any other love I have felt in some time"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -16,6 +17,24 @@
       "Lorem ipsum dolor",
       "Exercitation ullamco",
       "Lorem ipsum dolor"
+    ],
+    "AboutUs": [
+      {
+        "icon": "fa fa-clock-o",
+        "title": "Lorem ipsum dolor"
+      },
+      {
+        "icon": "fa fa-hammer",
+        "title": "Consectetur adipiscing"
+      },
+      {
+        "icon": "fa fa-road",
+        "title": "Lorem ipsum dolor"
+      },
+      {
+        "icon": "fa fa-comments-o",
+        "title": "Lorem ipsum dolor"
+      }
     ]
   },
   "Gallery": [
