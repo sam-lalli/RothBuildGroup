@@ -13,7 +13,8 @@ export const About = (props) => {
             <div className="about-text">
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
+              <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+              {/* <h3>Why Choose Us?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
@@ -33,9 +34,25 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
+        </div>
+      </div>
+      <div id="features" className="text-center">
+      <div className="container">
+        </div>
+        <div className="row">
+          {props.data
+            ? props.data.AboutUs.map((d, i) => (
+                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                  {" "}
+                  <i className={d.icon}></i>
+                  <h3 className="featuresH3">{d.title}</h3>
+                  <p>{d.text}</p>
+                </div>
+              ))
+            : "Loading..."}
         </div>
       </div>
     </div>
