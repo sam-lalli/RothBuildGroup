@@ -7,6 +7,7 @@ html {
   font-weight: 400;
   width: auto !important;
   height: auto !important;
+  background: #EBEAEB;
 }
 h2,
 h3,
@@ -72,74 +73,6 @@ hr {
 }
 /* Navigation */
 
-/* Home Page Navigation */
-#menu.navbar-homepage {
-  background-color: transparent;
-  border-color: rgba(231, 231, 231, 0);
-}
-#menu.navbar-homepage .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
-  font-weight: 400;
-  padding: 8px 2px;
-  border-radius: 0;
-  margin: 9px 20px 0;
-}
-#menu.navbar-homepage .navbar-nav > li > a:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
-  content: "";
-  transition: width 0.2s;
-}
-#menu.navbar-homepage .navbar-nav > li > a:hover {
-  width: 100%;
-  background-color: transparent;
-}
-
-.navbar-homepage .navbar-nav > .active > a,
-.navbar-homepage .navbar-nav > .active > a:hover,
-.navbar-homepage .navbar-nav > .active > a:focus {
-  background-color: transparent;
-}
-
-.navbar-homepage .navbar-nav > .active > a:after,
-.navbar-homepage .navbar-nav > .active > a:hover:after,
-.navbar-homepage .navbar-nav > .active > a:focus:after {
-  display: block !important;
-  position: absolute !important;
-  left: 0 !important;
-  bottom: -1px !important;
-  width: 100% !important;
-  height: 2px !important;
-  background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%) !important;
-  content: "" !important;
-  transition: width 0.2s !important;
-  background-color: transparent;
-
-  
-}
-.navbar-homepage .navbar-toggle:hover,
-.navbar-homepage .navbar-toggle:focus {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.navbar-homepage .navbar-toggle:hover > .icon-bar {
-  background-color: #30321C;
-}
-
-.navbar-homepage .navbar-toggle > .icon-bar {
-  background-color: #30321C;
-}
-
-/* Every Other Page Navigation */
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -152,12 +85,18 @@ hr {
 
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  height: 24px;
   font-weight: 700;
   color: #EBEAEB;
   text-transform: uppercase;
-  
 }
+
+#menu img {
+  background: #12100E;
+  padding-top: 1%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -344,6 +283,34 @@ header .intro-text {
   text-align: center;
 }
 
+/* animation class and keyframes */
+.overflow-hidden {
+  overflow: hidden;
+ }
+ 
+ .drop-in {
+  animation: drop-in 1s ease 200ms backwards;
+ }
+ 
+ .drop-in-2 {
+  animation: drop-in 1200ms ease 500ms backwards;
+ }
+
+ .drop-in-3 {
+  animation: drop-in 1200ms ease 700ms backwards;
+ }
+ 
+ @keyframes drop-in {
+  from {
+   opacity: 0;
+   transform: translateY(-100px);
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+ }
+
 /* About Section */
 #about {
   padding: 10% 0 0 0;
@@ -374,7 +341,7 @@ header .intro-text {
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+#about .about-text-2 li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #6B654B;
@@ -394,11 +361,49 @@ header .intro-text {
   margin: 30px 0;
 }
 
+.row2 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+/* animation class and keyframes */
+
+.slide-in {
+  animation: slide-in 1s ease 200ms backwards;
+ }
+ 
+ .slide-in-2 {
+  animation: slide-in-2 1200ms ease 700ms backwards;
+ }
+
+ 
+ @keyframes slide-in {
+  from {
+   opacity: 0;
+   transform: translateX(-100px);
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+}
+
+@keyframes slide-in-2 {
+  from {
+   opacity: 0;
+   transform: translateX(100px);
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+ }
+
 /* Features Section in about page*/
 #features {
-  background: #6B654B;
+  background: #EBEAEB;
   height: 40%;
-  margin-top: 6%;
+  padding-top: 3%;
 }
 #features i.fa {
   margin: 50px;
@@ -407,8 +412,8 @@ header .intro-text {
   transition: all 0.5s;
   color: #EBEAEB;
   width: 30%;
-  height: 35%;
-  padding: 30px 0;
+  height: 37%;
+  padding: 20px 0;
   border-radius: 20%;
   background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -421,37 +426,33 @@ header .intro-text {
   transition: all 0.5s;
   color: #EBEAEB;
   width: 32%;
-  height: 37%;
-  padding: 30px 0;
+  height: 40%;
+  padding: 20px 0;
   border-radius: 20%;
   background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 #features h3 {
-  color: #EBEAEB;
-}
-
-#features p {
-  color: #EBEAEB;
+  color: #4A4B2F;
 }
 
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
-  color: #EBEAEB;
+  background: #EBEAEB;
+  color: #12100E;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #EBEAEB;
+  color: #12100E;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -463,18 +464,32 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
+  transition: all 0.5s;
   background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
   border-radius: 50%;
   color: #EBEAEB;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
+#services i.fa:hover {
+  font-size: 42px;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  transition: all 0.5s;
+  background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
+  border-radius: 50%;
+  color: #EBEAEB;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #EBEAEB;
+  color: #12100E;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #12100E;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -491,7 +506,8 @@ header .intro-text {
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
-  margin: 0;
+  margin: 1%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .hover-bg .hover-text {
   position: absolute;
@@ -533,7 +549,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #4A4B2F 0%, #6B654B 100%);
+  background: linear-gradient(to right, #30321C 0%, #4A4B2F 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {

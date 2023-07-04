@@ -1,10 +1,10 @@
 import React from "react";
 
 export const Navigation = (props) => {
-  const { className } = props;
+
   
   return (
-    <nav id="menu" className={`navbar ${className} navbar-fixed-top`}>
+    <nav id="menu" className={`navbar navbar-default navbar-fixed-top`}>
       <div className="container">
         <div className="navbar-header">
           <button
@@ -19,9 +19,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="/">
-            Roth Build Group
-          </a>{" "}
+          <a className="col-xs-4 col-md-4"  href="/">
+            {" "}
+            <img src="img/currentLogo.jpg" className="img-responsive" alt="" />{" "}
+          </a>
+          {/* <a className="navbar-brand page-scroll" href="/">Roth Build Group</a>{" "} */}
         </div>
 
         <div

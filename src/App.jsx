@@ -12,7 +12,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
+export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
   speedAsDuration: true,
 });
@@ -42,7 +42,7 @@ const App = () => {
     },
     {
       path: "/services",
-      element:  <Gallery data={landingPageData.Gallery} />,
+      element:  <Services data={landingPageData.Services} />,
       errorElement: <ErrorPage />,
     },
     {
@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     <div> 
-      {url.endsWith('/') ? <Navigation className={'navbar-default'} /> : <Navigation className={'navbar-default'} />}
+      <Navigation data={landingPageData.Navigation} />
       
       <RouterProvider router={router} />
       {/* 
