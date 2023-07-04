@@ -751,38 +751,31 @@ h1{
   letter-spacing:1px;
 }
 
-@media (min-width:360px){
-  h1{
-    font-size:4.5em;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-sizing:border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
-  }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
+  and (orientation: portrait) { 
+
+    .wrapper-1{
+      height: initial;
+      max-width:620px;
+      margin:0 auto;
+      margin-top:10%;
+      box-shadow: 4px 8px 40px 8px #6B654B;
+    }
 }
 
 @media (min-width:600px){
-  #thankyou{
-    background: #12100E;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-sizing:border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
   .wrapper-1{
   height: initial;
   max-width:620px;
-  margin-top: 20%;
+  margin:0 auto;
+  margin-top:50px;
   box-shadow: 4px 8px 40px 8px #6B654B;
+}
+
+h1{
+  font-size:4.5em;
 }
   
 }
