@@ -6,6 +6,7 @@ import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Contact } from "./components/contact";
+import { Thankyou } from "./components/thankyou";
 import ErrorPage from "./error-page";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -48,6 +49,11 @@ const App = () => {
     {
       path: "/inquiry",
       element:  <Contact data={landingPageData.Contact} />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/thank-you",
+      element:  <Thankyou data={landingPageData.Gallery} />,
       errorElement: <ErrorPage />,
     },
   ]);
