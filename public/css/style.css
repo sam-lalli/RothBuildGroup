@@ -286,18 +286,22 @@ header .intro-text {
 /* animation class and keyframes */
 .overflow-hidden {
   overflow: hidden;
- }
+}
  
  .drop-in {
   animation: drop-in 1s ease 200ms backwards;
- }
+}
  
  .drop-in-2 {
   animation: drop-in 1200ms ease 500ms backwards;
- }
+}
 
  .drop-in-3 {
   animation: drop-in 1200ms ease 700ms backwards;
+}
+
+ .drop-in-4 {
+  animation: drop-in 1200ms ease 900ms backwards;
  }
  
  @keyframes drop-in {
@@ -553,7 +557,7 @@ header .intro-text {
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 #contact .section-title p {
   font-size: 16px;
@@ -580,50 +584,104 @@ header .intro-text {
   padding-bottom: 20px;
   font-weight: 400;
 }
+
 #contact form {
   padding-top: 20px;
 }
-#contact .text-danger {
-  color: #cc0033;
-  text-align: left;
+
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
 }
-#contact .btn-custom {
-  margin: 30px 0;
+
+#contact .column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  font: 15px/24px, 'lato'; 
+  color: #EBEAEB;
+  width: 100%; 
+  box-sizing: border-box; 
+  letter-spacing: 1px;   
   background: transparent;
-  border: 2px solid #EBEAEB;
 }
-#contact .btn-custom:hover {
-  color: #1f386e;
-  background: #EBEAEB;
+
+:focus{
+  outline: none;
 }
-label {
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  float: left;
+
+.effect{
+  border: 0; 
+  padding: 7px 0; 
+  border-bottom: 1px solid #ccc;
 }
+
+.effect ~ .focus-border{
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #4b516b; 
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.effect:focus ~ .focus-border{
+  width: 100%; 
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.col-3{
+  float: left; 
+  width: 60%; 
+  margin: 40px 0; 
+  position: relative;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 #contact .form-control {
-  display: block;
-  width: 100%;
+  display: flex;
+  width: 60%;
+  margin-top: 40px;
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #444;
-  background-color: #EBEAEB;
+  color: #EBEAEB;
+  background-color: transparent;
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  flex-direction: column;
+  align-items: center;
+  
 }
+
 #contact .form-control:focus {
-  border-color: #999;
+  border-color: #4b516b; 
+  transition: 0.4s;
   outline: 0;
   -webkit-box-shadow: transparent;
   box-shadow: transparent;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 .form-control::-webkit-input-placeholder {
   color: #777;
@@ -637,6 +695,87 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
+
+#contact .btn-custom {
+  margin: 30px 0;
+  background: transparent;
+  border: 1px solid #EBEAEB;
+  border-radius: 0;
+}
+#contact .btn-custom:hover {
+  color: #4b516b;
+  background: #EBEAEB;
+}
+
+/* Thank you page */
+
+#thankyou{
+  background: #12100E;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-1{
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.wrapper-2{
+  padding :30px;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Courier New';
+  font-size:4em;
+  letter-spacing:3px;
+  color:#EBEAEB ;
+  margin:0;
+  margin-bottom:20px;
+}
+
+.wrapper-2 p{
+  margin:0;
+  font-size:1.3em;
+  color:#aaa;
+  font-family: 'Courier';
+  letter-spacing:1px;
+}
+
+@media (min-width:360px){
+  h1{
+    font-size:4.5em;
+  }
+  .go-home{
+    margin-bottom:20px;
+  }
+}
+
+@media (min-width:600px){
+  .content{
+  max-width:1000px;
+  margin:0 auto;
+}
+  .wrapper-1{
+  height: initial;
+  max-width:620px;
+  margin:0 auto;
+  margin-top:50px;
+  box-shadow: 4px 8px 40px 8px #6B654B;
+}
+  
+}
+
+/* Footer Section*/
 #contact .contact-item {
   margin: 20px 0;
 }
@@ -672,7 +811,6 @@ label {
   color: #30321C;
   background: #EBEAEB;
 }
-/* Footer Section*/
 #footer {
   background: #f6f6f6;
   padding: 30px 0;

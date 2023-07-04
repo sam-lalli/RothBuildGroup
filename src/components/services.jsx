@@ -4,7 +4,7 @@ export const Services = (props) => {
   return (
     <div id="services" className="text-center">
       <div className="container">
-        <div className="section-title">
+        <div className="section-title slide-in-2">
           <h2>Our Services</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
@@ -14,7 +14,7 @@ export const Services = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`} className="col-md-4 slide-in">
                   {" "}
                   <i className={d.icon}></i>
                   <div className="service-desc">
