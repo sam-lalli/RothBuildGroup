@@ -4,7 +4,7 @@ export const About = (props) => {
   return (
     <div id="about">
       <div className="container">
-        <div className="row">
+        <div className="row slide-in">
           <div className="col-xs-12 col-md-6">
             {" "}
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
@@ -38,8 +38,39 @@ export const About = (props) => {
             </div>
           </div>
         </div>
+        <div className="row2 slide-in-2">
+        <div className="col-xs-12 col-md-6">
+            <div className="about-text-2">
+              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+                            <h3>Why Us?</h3>
+              <div className="list-style">
+                <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <ul>
+                    {props.data
+                      ? props.data.Why.map((d, i) => (
+                          <li key={`${d}-${i}`}>{d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+                <div className="col-lg-6 col-sm-6 col-xs-12">
+                  <ul>
+                    {props.data
+                      ? props.data.Why2.map((d, i) => (
+                          <li key={`${d}-${i}`}> {d}</li>
+                        ))
+                      : "loading"}
+                  </ul>
+                </div>
+              </div>
       </div>
-      <div id="features" className="text-center">
+      </div>
+          <div className="col-xs-12 col-md-6">
+            {" "}
+            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+          </div>
+      </div>
+      {/* <div id="features" className="text-center">
       <div className="container">
         </div>
         <div className="row">
@@ -49,12 +80,12 @@ export const About = (props) => {
                   {" "}
                   <i className={d.icon}></i>
                   <h3 className="featuresH3">{d.title}</h3>
-                  <p>{d.text}</p>
                 </div>
               ))
             : "Loading..."}
         </div>
-      </div>
+      </div> */}
+    </div>
     </div>
   );
 };
