@@ -751,26 +751,31 @@ h1{
   letter-spacing:1px;
 }
 
-@media (min-width:360px){
-  h1{
-    font-size:4.5em;
-  }
-  .go-home{
-    margin-bottom:20px;
-  }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px)
+  and (orientation: portrait) { 
+
+    .wrapper-1{
+      height: initial;
+      max-width:620px;
+      margin:0 auto;
+      margin-top:10%;
+      box-shadow: 4px 8px 40px 8px #6B654B;
+    }
 }
 
 @media (min-width:600px){
-  .content{
-  max-width:1000px;
-  margin:0 auto;
-}
   .wrapper-1{
   height: initial;
   max-width:620px;
   margin:0 auto;
   margin-top:50px;
   box-shadow: 4px 8px 40px 8px #6B654B;
+}
+
+h1{
+  font-size:4.5em;
 }
   
 }
