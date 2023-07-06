@@ -12,6 +12,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Footer } from "./components/footer";
 
 export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
@@ -53,7 +54,7 @@ const App = () => {
     },
     {
       path: "/thank-you",
-      element:  <Thankyou data={landingPageData.Gallery} />,
+      element:  <Thankyou />,
       errorElement: <ErrorPage />,
     },
   ]);
@@ -70,6 +71,7 @@ const App = () => {
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
       <Contact data={landingPageData.Contact} /> */}
+      <Footer/>
     </div>
   );
 };
