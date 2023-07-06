@@ -14,9 +14,11 @@ export const Services = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4 slide-in">
+                <div key={`${d.name}-${i}`} className="col-md-4 slide-in flip-container">
                   {" "}
-                  <i className={d.icon}></i>
+                  <div className="flipper">
+                    <i className={d.icon}></i>
+                  </div>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
