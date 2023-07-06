@@ -315,6 +315,20 @@ header .intro-text {
   }
  }
 
+@media (max-width: 768px) {
+  .intro {
+    display: table;
+    width: 111%;
+    padding: 0;
+    background: url(../img/heroImg.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
 /* About Section */
 #about {
   padding: 10% 0 0 0;
