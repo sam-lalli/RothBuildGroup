@@ -1,11 +1,12 @@
 {
   "Header": {
-    "title": "Roth Buld Group",
+    "title": "High West Estate Management",
     "paragraph": "The love that I have for Hunter is unmatched by anything by any other love I have felt in some time"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "paragraph2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Born and raised in Midway, Utah, I have always been deeply connected to the land and homes of this region. It was this great appreciation that led me to pursue a Bachelor’s Degree in Construction Management from Utah Valley University. My education and extensive background in construction has uniquely positioned me to understand the nuanced needs of homeowners, particularly those with second homes in Summit and Wasatch counties.",
+    "paragraph2": "Today, my ethos for the company is simple: to offer homeowners fast communication, transparent services, and high integrity while ensuring properties are managed with the same care, precision, and attention to detail that I give to my own properties. My passion for understanding building systems coupled with a love for working with people, makes High West an efficient and valuable boutique outfit in the area.",
+    "paragraph3": "As we continue to grow and evolve, my vision remains steadfast – to provide unparalleled property management services, melding my construction expertise with a personal understanding of the unique needs of each homeowner.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -86,34 +87,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "icon": "fa fa-home",
+      "name": "Home Inspection",
+      "text": "Ensure the safety, security, and upkeep of your property with our comprehensive home inspection service. Our team meticulously checks functionality of all building systems and completes a thorough walk through of the home. Inspections are performed on either weekly or bimonthly."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "icon": "fa fa-wrench",
+      "name": "Building Services",
+      "text": "From minor repairs to major renovations, we can handle it. The in-house maintenance technicians will address minor maintenance and repair. Our sister company Roth Build Group will tackle larger projects. They are led by Hunter Roth who is a licensed B100 General Contractor."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "icon": "fa fa-plug",
+      "name": "Spa / Hot tub maintenance",
+      "text": "Keep your spa or hot tub in optimal working condition with our maintenance services. Certified technicians handle everything from cleaning and water quality checks to equipment inspection, ensuring a hassle-free experience every time you visit."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "icon": "fa fa-snowflake-o",
+      "name": "Snow Removal",
+      "text": "Your home should be accessible no matter the time of year. We ensure clear driveways, walkways, and entrances, allowing you easy access to your property regardless of the weather. The snow removal team focuses on protecting driveways and landscaping."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "icon": "fa fa-pagelines",
+      "name": "Landscaping",
+      "text": "Maintain the health of your outdoor space with our functional landscaping services offered on a routine schedule or a la carte."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "icon": "fa fa-bed",
+      "name": "Housekeeping",
+      "text": "Our team aims to provide a hotel grade service giving you a spotless and comfortable experience every time you visit."
     }
   ],
   "Features": [

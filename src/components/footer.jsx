@@ -9,7 +9,7 @@ export const Footer = () => {
                     <a href="/"><img src="img/rothGroupLogo.png" alt="logo"/></a>
                     <div class="hr"></div>
                     <h6>Salt Lake City, UT</h6>
-                    <h6>(801)-222-2222<span>|</span>HunterRoth@email.com</h6>
+                    <h6>(435) 654-8043<span>|</span>hunt.roth@gmail.com </h6>
                     <div class="contact-social">
                         <ul>
                             <li><a class="hover-target" href=""><i class="fa fa-facebook"></i></a></li>

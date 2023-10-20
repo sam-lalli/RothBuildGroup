@@ -19,11 +19,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="col-xs-4 col-md-4"  href="/">
+          <a className="col-xs-4 col-md-3"  href="/">
             {" "}
-            <img src="img/currentLogo.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/currentLogo.png" className="img-responsive" alt="" />{" "}
           </a>
-          {/* <a className="navbar-brand page-scroll" href="/">Roth Build Group</a>{" "} */}
         </div>
 
         <div
