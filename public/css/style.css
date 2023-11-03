@@ -438,11 +438,12 @@ header .intro-text {
 }
 #about img {
   width: 520px;
-  margin-top: 10px;
+  margin-top: 13%;
   background: #EBEAEB;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
+
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -451,6 +452,10 @@ header .intro-text {
 .row2 {
   margin-top: 3%;
   margin-bottom: 1%;
+}
+
+.img-responsive {
+  margin-bottom: 5%;
 }
 
 .bottom-img{
@@ -968,4 +973,3 @@ footer p {
 footer img {
   width: 70px;
 }
-
