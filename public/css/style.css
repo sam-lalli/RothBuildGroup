@@ -102,7 +102,7 @@ hr {
   background: #12100E;
   padding-top: 5%;
   margin-bottom: -40;
-  margin-left: -200;
+  margin-left: -150;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 
@@ -337,8 +337,8 @@ header .intro-text {
     width: 390px;
   }
   #menu img {
-    margin-left: 20%;
-    padding-top: 12%;
+    margin-left: 7%;
+    padding-top: 10%;
   }
 
   #menu .navbar-header {
