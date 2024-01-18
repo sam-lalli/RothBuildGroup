@@ -1,24 +1,12 @@
 {
   "Header": {
-    "title": "High West Estate Management",
-    "paragraph": "The love that I have for Hunter is unmatched by anything by any other love I have felt in some time"
+    "title": "Premier home services in the wasatach back"
   },
   "About": {
     "paragraph": "Born and raised in Midway, Utah, I have always been deeply connected to the land and homes of this region. It was this great appreciation that led me to pursue a Bachelor’s Degree in Construction Management from Utah Valley University. My education and extensive background in construction has uniquely positioned me to understand the nuanced needs of homeowners, particularly those with second homes in Summit and Wasatch counties.",
     "paragraph2": "Today, my ethos for the company is simple: to offer homeowners fast communication, transparent services, and high integrity while ensuring properties are managed with the same care, precision, and attention to detail that I give to my own properties. My passion for understanding building systems coupled with a love for working with people, makes High West an efficient and valuable boutique outfit in the area.",
     "paragraph3": "As we continue to grow and evolve, my vision remains steadfast – to provide unparalleled property management services, melding my construction expertise with a personal understanding of the unique needs of each homeowner.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ],
+    "paragraph4": "Our local and experienced team coupled with adventageous vendor relationships allows us to find the best fit solutions and resolve problems quickly. We love what we do and the people we work with.",
     "AboutUs": [
       {
         "icon": "fa fa-clock-o",
@@ -98,13 +86,13 @@
     },
     {
       "icon": "fa fa-plug",
-      "name": "Spa / Hot tub maintenance",
+      "name": "Spa / Hot Tub Maintenance",
       "text": "Keep your spa or hot tub in optimal working condition with our maintenance services. Certified technicians handle everything from cleaning and water quality checks to equipment inspection, ensuring a hassle-free experience every time you visit."
     },
     {
       "icon": "fa fa-snowflake-o",
       "name": "Snow Removal",
-      "text": "Your home should be accessible no matter the time of year. We ensure clear driveways, walkways, and entrances, allowing you easy access to your property regardless of the weather. The snow removal team focuses on protecting driveways and landscaping."
+      "text": "Your home should be accessible no matter the time of year. We ensure clear driveways, walkways, and entrances, allowing you easy access to your property regardless of the weather. We'll also take care of any dangerous or excessive snow and icicles on the roof. The snow removal team strives to protect the exterior improvements of your home."
     },
     {
       "icon": "fa fa-pagelines",
