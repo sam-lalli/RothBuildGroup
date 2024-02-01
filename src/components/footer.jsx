@@ -9,7 +9,8 @@ export const Footer = () => {
                     <a href="/"><img src="img/HWLogo.png" alt="logo"/></a>
                     <div class="hr"></div>
                     <h6>Salt Lake City, UT</h6>
-                    <h6>(435) 654-8043<span>|</span>hunter@highwestmanagement.com</h6>
+                    <h6>(435) 654-8043</h6>
+                    <h6>Hunter@highwestmanagement.com</h6>
                     <div class="contact-social">
                         {/* <ul>
                             <li><a class="hover-target" href=""><i class="fa fa-facebook"></i></a></li>
